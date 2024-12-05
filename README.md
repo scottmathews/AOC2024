@@ -9,7 +9,7 @@ Using JavaScript and Serenade for hands-free coding, without a keyboard.
 ## Tools
 
 - JavaScript
-- Serenade
+- Serenade https://serenade.ai/
 
 ## Goals
 
