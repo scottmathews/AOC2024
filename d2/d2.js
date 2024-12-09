@@ -19,7 +19,7 @@ const results = lines.map(val => {
             return true;
         }
     }
-
+    // for part number 2
     for (let i = 0; i < numbers.length; i++) {
         const modifiedNumbers = numbers.filter((_, index) => index !== i);
         const isModifiedIncreasing = modifiedNumbers.every((num, index) => index === 0 || num >= modifiedNumbers[index - 1]);
@@ -42,4 +42,4 @@ const results = lines.map(val => {
 });
 
 const numSafeCount = results.filter(result => result).length;
-console.log(`Number of safe reports: ${numSafeCount}`);
+console.log(`Number of safe reports modified: ${numSafeCount}`);
