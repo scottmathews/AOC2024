@@ -6,11 +6,11 @@ const lines = input.split('\n');
 // make arrays
 const numA = [];
 const numB = [];
-for (line of lines) {
+lines.forEach(line => {
   const [num1, num2] = line.split(/\s+/);
   numA.push(num1);
   numB.push(num2);
-};
+});
 
 // make a quick sort I wanted to practice
 // cheating because I'm following this
